@@ -21,7 +21,8 @@ this informs terraform to use the provider from your local since we have not pub
 
 you do not have to run ```terraform init``` because it will make terraform want to search for your provider in a custom registry. This will lead to an error since it does not exist.
 
-go ahead and edit the main.tf in buckets folder to the name and tag of your choice and run 
+go ahead and edit the main.tf in buckets folder to the name and tag of your choice.
+Also add your secret access key and access key as environment variables and run
 ```terraform plan``` and ```apply```
 
 NOTE: This provider uses the terraform provider framework
